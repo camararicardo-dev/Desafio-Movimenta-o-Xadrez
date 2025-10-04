@@ -17,6 +17,22 @@ int main() {
         //Decrementar a variavel em 1
         rainha = rainha - 1;
     }
+
+    //Imprimir movimentação Rainha
+    printf("Iniciar movimentação da da torre:\n");
+
+    do{
+        //Imprimir direção do movimento
+        printf("Direita\n");
+
+        //Decrementar a variavel em 1
+        torre = torre -1; 
+
+        // Loop vai funcionar enquanto torre for maior que 0
+    }while(torre > 0); 
+        
+
+    
     
 
     return 0;
