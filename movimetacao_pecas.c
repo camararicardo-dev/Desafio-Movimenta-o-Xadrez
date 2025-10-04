@@ -3,6 +3,9 @@
 //Variaveis para receber quantidade de movimentações das peças
 int rainha=8,bispo=5,torre =5;
 
+//Variavel para receber movimentação do cavalo
+int cavalo=4;
+
 int main() {
 
     //Imprimir movimentação Rainha
@@ -40,7 +43,22 @@ int main() {
                                             printf("Para Cima, Direita\n");
                                         }
     
-    
+                                                //Imprimir movimentação do cavalo
+                                                printf("Iniciar movimentação do cavalo:\n");
+                                                
+                                                //Loop para controlar o movimento do cavalo
+                                                //Valor é decrementado na própria condição do loop
+                                                while(cavalo --){
+
+                                                    for (int i = 0; i < 2; i++)
+                                                    {
+                                                        //Imprimir direção do primeiro movimento 
+                                                        printf("Para Cima\n");
+                                                    }
+                                                        //Imprimir direção do segundo movimento
+                                                        printf("Para Direita\n");
+
+                                                }
 
     return 0;
 }
