@@ -18,7 +18,7 @@ int main() {
         rainha = rainha - 1;
     }
 
-    //Imprimir movimentação Rainha
+    //Imprimir movimentação da torre
     printf("Iniciar movimentação da da torre:\n");
 
     do{
@@ -31,7 +31,14 @@ int main() {
         // Loop vai funcionar enquanto torre for maior que 0
     }while(torre > 0); 
         
+    //Imprimir movimentação do bispo
+    printf("Iniciar movimentação do bispo:\n");
 
+    //Loop vai funcionar enquanto bispo for maior que 0 
+    for(bispo; bispo > 0; bispo = bispo -1){
+        //Imprimir direção do movimento
+        printf("Para Cima, Direita\n");
+    }
     
     
 
